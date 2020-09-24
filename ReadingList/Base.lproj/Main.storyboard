@@ -458,22 +458,6 @@
             </objects>
             <point key="canvasLocation" x="3416" y="1031"/>
         </scene>
-        <!--About MyReadingList-->
-        <scene sceneID="St7-k9-pFS">
-            <objects>
-                <viewController id="Upq-EH-Q0o" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wqD-Sf-m2Y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="h37-cm-aLj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="About MyReadingList" id="gYa-bk-bqC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r4r-nz-uWY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2705" y="390"/>
-        </scene>
         <!--About-->
         <scene sceneID="GDJ-MM-S81">
             <objects>
@@ -481,74 +465,8 @@
                     <view key="view" contentMode="scaleToFill" id="9sa-7H-Skl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="DQO-Ky-fee">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <sections>
-                                    <tableViewSection id="wby-MU-LSK">
-                                        <cells>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="TPy-PS-bJK">
-                                                <rect key="frame" x="0.0" y="18" width="414" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TPy-PS-bJK" id="R5C-1A-A5x">
-                                                    <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AAC-zo-iBY">
-                                                            <rect key="frame" x="20" y="11" width="22" height="22"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNk-zl-bhR">
-                                                            <rect key="frame" x="50" y="11" width="339" height="21"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                                <connections>
-                                                    <segue destination="Upq-EH-Q0o" kind="show" id="Lw0-Vr-Ikg"/>
-                                                </connections>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kxi-hd-kLn">
-                                                <rect key="frame" x="0.0" y="62" width="414" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kxi-hd-kLn" id="dD3-jJ-Whw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="VU7-BU-cXl">
-                                                <rect key="frame" x="0.0" y="106" width="414" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VU7-BU-cXl" id="XMz-cF-xdB">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="wbQ-xs-dgh">
-                                                <rect key="frame" x="0.0" y="150" width="414" height="43.5"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wbQ-xs-dgh" id="BPC-gc-anq">
-                                                    <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                        </cells>
-                                    </tableViewSection>
-                                </sections>
-                            </tableView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qNS-ru-PMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="DQO-Ky-fee" firstAttribute="leading" secondItem="qNS-ru-PMM" secondAttribute="leading" id="6Ba-uW-ei5"/>
-                            <constraint firstItem="qNS-ru-PMM" firstAttribute="trailing" secondItem="DQO-Ky-fee" secondAttribute="trailing" id="78q-ko-rhO"/>
-                            <constraint firstItem="qNS-ru-PMM" firstAttribute="bottom" secondItem="DQO-Ky-fee" secondAttribute="bottom" id="asN-Cg-vWJ"/>
-                            <constraint firstItem="DQO-Ky-fee" firstAttribute="top" secondItem="qNS-ru-PMM" secondAttribute="top" id="eMZ-BO-87U"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="rTJ-f2-Rd6"/>
                 </viewController>
@@ -566,7 +484,6 @@
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
-        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
